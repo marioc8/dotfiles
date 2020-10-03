@@ -10,12 +10,12 @@ all dotfiles added in file update.sh to variable `config_files` are automagicall
 usage:
 
 ```markdown
-* bash update.sh
+$ bash update.sh
 ```
 
 now you can upload your carefully choosen config files to github
 
 they are safe now
 
-¯\_(⊙_ʖ⊙)_/¯
+¯\\_(⊙_ʖ⊙)_/¯
 
