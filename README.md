@@ -17,5 +17,5 @@ now you can upload your carefully choosen config files to github
 
 they are safe now
 
-¯\\__(⊙_ʖ⊙)__/¯
+¯\\\_\_\(⊙_ʖ⊙\)\_\_/¯
 
