@@ -28,6 +28,9 @@ let g:which_key_map =  {}
 " 	\ 's' : [':lopen'	, 'open-locationlist']	,
 " 	\ }
 
+" nnoremap <silent> <leader>q :quit<CR>
+" let g:which_key_map.q = 'quit'
+
 let g:which_key_map['f'] = {
 	\ 'name' : '+file',
 	\ 'c' : [':checkhealth'			, 'vim-checkhealth']	,
@@ -35,7 +38,8 @@ let g:which_key_map['f'] = {
 	\ 'r' : [':update | so $MYVIMRC'	, 'reload-vim-config']	,
 	\ 'x' : [':update | !bash %'		, ':bash %']	,
 	\ 'q' : [':quit'			, ':quit']	,
-	\ 'e' : [':Fern . -drawer -reveal=%'	, 'open file']	,
+	\ 's' : [':update'			, 'save file']	,
+	\ 'e' : [':Fern . -drawer -reveal=%'	, 'filemanager']	,
 	\ }
 
 let g:which_key_map.b = {

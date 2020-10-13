@@ -22,6 +22,7 @@ source ~/.config/nvim/quick-scope.vimrc
 source ~/.config/nvim/vim-which-key.vimrc 
 source ~/.config/nvim/vimwiki.vimrc
 source ~/.config/nvim/tmux-seamless-navigation.vimrc
+source ~/.config/nvim/coc.vimrc
 
 " general
 
@@ -31,8 +32,19 @@ set laststatus=2
 set relativenumber
 set nowrap
 
-" vim split window: Focus new window
-" To open new splits on the right or on the bottom of the screen add the following to your vimrc.
+
+
+" remapping keys
+
+" nnoremap <silent> <Tab> <C-w>p
+
+map <M-j> <C-W>w
+
+" change window size
+" map <M-h> <C-W><
+" map <M-l> <C-W>>
+
+" To focus new window - open new splits on the right or on the bottom of the screen 
 
 set splitbelow
 set splitright

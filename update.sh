@@ -10,8 +10,8 @@ config_files=(
 	)
 
 # first remove old backup
-echo "Deleting old backup"
-rm -rf homedir/
+#echo "Deleting old backup"
+#rm -rf homedir/
 
 echo "Making fresh backup"
 # now copy fresh version of files
