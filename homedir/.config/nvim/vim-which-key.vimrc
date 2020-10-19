@@ -5,6 +5,7 @@
 " By default timeoutlen is 1000 ms
 set timeoutlen=500
 
+" let mapleader = "\<Space>"
 let g:mapleader = "\<Space>"
 call which_key#register('<Space>', "g:which_key_map")
 nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
@@ -31,11 +32,15 @@ let g:which_key_map =  {}
 " nnoremap <silent> <leader>q :quit<CR>
 " let g:which_key_map.q = 'quit'
 
-let g:which_key_map['f'] = {
-	\ 'name' : '+file',
+let g:which_key_map['a'] = {
+	\ 'name' : '+',
 	\ 'c' : [':checkhealth'			, 'vim-checkhealth']	,
 	\ 'd' : [':e $MYVIMRC'			, 'edit-vimrc']		,
 	\ 'r' : [':update | so $MYVIMRC'	, 'reload-vim-config']	,
+	\ }
+
+let g:which_key_map['f'] = {
+	\ 'name' : '+file',
 	\ 'x' : [':update | !bash %'		, ':bash %']	,
 	\ 'q' : [':quit'			, ':quit']	,
 	\ 's' : [':update'			, 'save file']	,
