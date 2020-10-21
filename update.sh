@@ -8,7 +8,6 @@ config_files=(
 	".local/bin/togglesinks.sh"
 	".local/bin/poweroff.sh"
 	".local/bin/mounting.sh"
-	".local/bin/unmounting.sh"
 	)
 
 # first remove old backup
