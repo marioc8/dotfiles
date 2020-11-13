@@ -42,6 +42,7 @@ let g:which_key_map['a'] = {
 let g:which_key_map['f'] = {
 	\ 'name' : '+file',
 	\ 'x' : [':update | !bash %'		, ':bash %']	,
+	\ 'p' : [':update | !python3 %'		, ':python3 %']	,
 	\ 'q' : [':quit'			, ':quit']	,
 	\ 's' : [':update'			, 'save file']	,
 	\ 'e' : [':Fern . -drawer -reveal=%'	, 'filemanager']	,

@@ -12,6 +12,7 @@ Plug 'NLKNguyen/papercolor-theme'	" theme
 Plug 'lambdalisue/fern.vim'		" File manager
 Plug 'antoinemadec/FixCursorHold.nvim'	" Fixes bug in fern with neovim (for now (See #120))
 Plug 'christoomey/vim-tmux-navigator'	" Seamless navigation between tmux panes and vim splits
+Plug 'ton/vim-bufsurf'			" Buffers surfing based on view history
 
 call plug#end()
 
@@ -23,9 +24,12 @@ source ~/.config/nvim/vim-which-key.vimrc
 source ~/.config/nvim/vimwiki.vimrc
 source ~/.config/nvim/tmux-seamless-navigation.vimrc
 source ~/.config/nvim/coc.vimrc
+" source ~/.config/nvim/coc-python-with-lightline.vimrc
 " source ~/.config/nvim/giving-vim-superpowers.vimrc
 source ~/.config/nvim/java-compile.vimrc
 
+" " coc-python
+" set statusline^=%{coc#status()}
 
 " general
 
@@ -42,6 +46,8 @@ set path+=.,**
 " remapping keys
 " nnoremap <silent> <Tab> <C-w>p
 map <M-j> <C-W>w
+nmap <silent> <C-o> :BufSurfBack<CR>
+nmap <silent> <C-i> :BufSurfForward<CR>
 " change window size
 " map <M-h> <C-W><
 " map <M-l> <C-W>>
