@@ -2,7 +2,7 @@
 
 config_files=(
 	".config/nvim/init.vim"
-	".config/nvim/*.vimrc"
+	".config/nvim/*.vimrc"	# add all files ending with vimrc from this directory
 	".tmux.conf"
 	".config/rofi/"
 	".local/bin/togglesinks.sh"
