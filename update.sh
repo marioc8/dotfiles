@@ -8,6 +8,8 @@ config_files=(
 	".local/bin/togglesinks.sh"
 	".local/bin/poweroff.sh"
 	".local/bin/mounting.sh"
+	"summary.sh"
+	"news.py"
 	)
 
 # first remove old backup
