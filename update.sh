@@ -5,9 +5,10 @@ config_files=(
 	".config/nvim/*.vimrc"	# add all files ending with vimrc from this directory
 	".tmux.conf"
 	".config/rofi/"
-	".local/bin/togglesinks.sh"
-	".local/bin/poweroff.sh"
+	".local/bin/godot"
 	".local/bin/mounting.sh"
+	".local/bin/poweroff.sh"
+	".local/bin/togglesinks.sh"
 	"summary.sh"
 	"news.py"
 	)
