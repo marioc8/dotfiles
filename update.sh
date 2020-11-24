@@ -9,6 +9,7 @@ config_files=(
 	".local/bin/mounting.sh"
 	".local/bin/poweroff.sh"
 	".local/bin/togglesinks.sh"
+	".xinitrc"
 	"summary.sh"
 	"news.py"
 	)

@@ -52,6 +52,14 @@ nmap <silent> <C-i> :BufSurfForward<CR>
 " map <M-h> <C-W><
 " map <M-l> <C-W>>
 
+" Comment/Uncomment
+nmap <silent> <C-z> :Commentary<CR>
+vmap <silent> <C-z> :Commentary<CR>
+
+" no highlight
+nnoremap <silent> ,<space> :nohlsearch<CR>
+
+
 " To focus new window - open new splits on the right or on the bottom of the screen 
 set splitbelow
 set splitright
