@@ -1,17 +1,17 @@
 #!/bin/bash
 
 config_files=(
-	".config/nvim/init.vim"
 	".config/nvim/*.vimrc"	# add all files ending with vimrc from this directory
-	".tmux.conf"
+	".config/nvim/init.vim"
 	".config/rofi/"
 	".local/bin/godot"
 	".local/bin/mounting.sh"
 	".local/bin/poweroff.sh"
 	".local/bin/togglesinks.sh"
+	".tmux.conf"
 	".xinitrc"
-	"summary.sh"
 	"news.py"
+	"summary.sh"
 	)
 
 # first remove old backup
