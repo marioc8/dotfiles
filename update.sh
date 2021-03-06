@@ -10,7 +10,6 @@ config_files=(
 	".local/bin/togglesinks.sh"
 	".tmux.conf"
 	".xinitrc"
-	"news.py"
 	"summary.sh"
 	)
 

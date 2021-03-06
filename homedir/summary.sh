@@ -2,6 +2,7 @@
 
 clear
 echo
+date
 
 # screenfetch -p | awk 'NF'
 screenfetch -p -d '-host;-kernel;-shell;-res;-de;-wmtheme;-gtk;-disk;-gpu;-mem'  | awk 'NF'
@@ -19,11 +20,12 @@ echo
 # tint genact
 # curl rate.sx/:help
 
-python3 ./news.py
+python3 .scripts/kantorcompl.py
+# python3 .scripts/internetowykantor.py
 
 echo
 
-curl --no-progress-meter rate.sx | grep -i -e Rank -e BTC -e ETH -e BCH -e ADA | awk '$5!="cryptocurrency"'
+curl --no-progress-meter rate.sx | grep -i 'Rank\|BTC\|ETH\|BNB\|DOT\|ADA\|ENJ' | awk '$5!="cryptocurrency"'
 
 echo
 

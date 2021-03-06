@@ -26,6 +26,7 @@ source ~/.config/nvim/tmux-seamless-navigation.vimrc
 source ~/.config/nvim/coc.vimrc
 " source ~/.config/nvim/coc-python-with-lightline.vimrc
 " source ~/.config/nvim/giving-vim-superpowers.vimrc
+source ~/.config/nvim/commentary.vimrc
 source ~/.config/nvim/java-compile.vimrc
 
 " " coc-python
@@ -63,4 +64,22 @@ nnoremap <silent> ,<space> :nohlsearch<CR>
 " To focus new window - open new splits on the right or on the bottom of the screen 
 set splitbelow
 set splitright
+
+
+
+" To enable syntax highlighting:
+
+filetype plugin indent on
+" To make backspaces, tabs, and indents work like your favorite IDE:
+
+set backspace=indent,eol,start " more powerful backspacing
+set tabstop=2 " Set the default tabstop
+set softtabstop=2
+set shiftwidth=2 " Set the default shift width for indents
+set expandtab " Make tabs into spaces (set by tabstop)
+set smarttab " Smarter tab levels
+" Make the vim tab name the current filename (useful to get context when you have multiple tabs open):
+
+" let &titlestring = @%
+" set title
 

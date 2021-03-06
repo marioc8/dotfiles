@@ -3,7 +3,8 @@
 # setxkbmap -option caps:swapescape
 # setxkbmap -option caps:escape
 setxkbmap -option caps:ctrl_modifier
-exec nitrogen --restore &
+nitrogen --restore &
+clipmenud &
 # exec compton -b &
 compton --backend glx --paint-on-overlay --vsync opengl-swc &
 
