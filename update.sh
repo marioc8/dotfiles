@@ -11,6 +11,7 @@ config_files=(
 	".tmux.conf"
 	".xinitrc"
 	"summary.sh"
+  ".bash_aliases"
 	)
 
 # first remove old backup
