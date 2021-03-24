@@ -10,7 +10,9 @@ config_files=(
 	".local/bin/togglesinks.sh"
 	".tmux.conf"
 	".xinitrc"
-	"summary.sh"
+	".scripts/summary.sh"
+  ".scripts/kantorcompl.py"
+  ".scripts/internetowykantor.py"
   ".bash_aliases"
 	)
 
